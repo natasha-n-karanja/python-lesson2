@@ -11,6 +11,7 @@ while attempts > 0:
   guess = int(input("Enter your guess: "))
   if guess == secret_number:
     print("🎉 Congrats! You guessed it right!")
+    break
   elif guess < secret_number:
     print("Too low!")
   else:
